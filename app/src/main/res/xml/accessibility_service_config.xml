@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagDefault|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews|flagRequestEnhancedWebAccessibility|flagReportViewIds"
+    android:canRequestFilterKeyEvents="true"
+    android:canRetrieveWindowContent="true"
+    android:canRequestEnhancedWebAccessibility="true"
+    android:description="@string/accessibility_service_description"
+    android:canPerformGestures="true"
+    android:notificationTimeout="3000"/>
+    <!--android:accessibilityFlags="flagDefault"-->
+    <!--accessibilityEventTypes:表示该服务对界面中的哪些变化感兴趣,即哪些事件通知,比如窗口打开,滑动,
+    焦点变化,长按等.具体的值可以在AccessibilityEvent类中查到,如typeAllMask表示接受所有的事件通知.-->
+    <!--accessibilityFeedbackType:表示反馈方式,比如是语音播放,还是震动-->
+    <!--canRetrieveWindowContent:表示该服务能否访问活动窗口中的内容.也就是如果你希望在服务中获取窗体内容的化,则需要设置其值为true.-->
+    <!--notificationTimeout:接受事件的时间间隔,通常将其设置为100即可.-->
+    <!--packageNames:表示对该服务是用来监听哪个包的产生的事件-->
+    <!--android:canRequestFilterKeyEvents="true"   //监听按键-->

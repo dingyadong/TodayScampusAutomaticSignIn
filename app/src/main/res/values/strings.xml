@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">亚东今日校园自动签到</string>
+    <string name="cpdailySwitch">今日校园定时自动签到</string>
+    <string name="accessibility_service_description">该服务用于今日校园自动签到</string>
+    <string name="sw_Accessbility">无障碍服务权限</string>
+    <string name="sw_canBackground">后台弹出应用权限</string>
+
+    <drawable name="clr_normal">#FFE6D3</drawable>
+    <drawable name="clr_pressed">#867777</drawable>
+
+</resources>
