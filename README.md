@@ -1,14 +1,15 @@
 ## 今日校园自动签到/守护进程/定时自动唤醒/自动解锁  
 本人是长江师范的大三狗，闲来无事，就对今日校园下了狠手，  
-原作者CSDN文章链接：https://blog.csdn.net/qq_37377691/article/details/105827526  
 写这个app研究了大量地Android源码，结构体系，弄了几天真的是煞费苦心，  
 说实话对我这个大三狗的Android个人开发经验提升蛮大的。  
 另外本人还发现了Android一个有趣的漏洞，在自动解锁提到，  
 可以对这个漏洞进行一个自己想法拓展，有兴趣的朋友可以看看。  
 以下内容仅供学习，切勿用于商业用途。  
 喜欢的老哥点个star吧！  
-运行截图：  
+
+### 运行截图：  
 ![image](https://github.com/dingyadong/TodayScampusAutomaticSignIn/blob/master/img/jietu.gif)  
+原作者CSDN文章链接：https://blog.csdn.net/qq_37377691/article/details/105827526  
 
 ## 本项目由AccessibilityService服务开发实现了一下几大功能：  
 ### 自动签到：  
