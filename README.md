@@ -7,7 +7,7 @@
 可以对这个漏洞进行一个自己想法拓展，有兴趣的朋友可以看看。  
 以下内容仅供学习，切勿用于商业用途。  
 喜欢的老哥点个star吧！  
-运行截图：
+运行截图：  
 ![image](https://github.com/dingyadong/TodayScampusAutomaticSignIn/blob/master/img/jietu.gif)  
 
 ## 本项目由AccessibilityService服务开发实现了一下几大功能：  
